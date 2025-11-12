@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ash Portfolio | Home</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Bio + Photo -->
+  <section class="section">
+    <h2 class="section-title">About Ash</h2>
+    <div class="flex-row">
+      <div class="bio-text">
+        <p>
+          <!-- Replace this text with the real bio -->
+          Ash is a dedicated event professional with experience in planning,
+          coordinating, and promoting diverse events. This space is for a short
+          introduction, key skills, and any personal details you want to share.
+        </p>
+        <p>
+          You can add more paragraphs here about education, achievements,
+          and any highlight projects.
+        </p>
+      </div>
+      <div class="bio-photo">
+        <!-- Replace ash-photo.jpg with your own image name -->
+        <img src="images/ash-photo.jpg" alt="Portrait of Ash">
+      </div>
+    </div>
+  </section>
+
+  <!-- CV PDF Viewer -->
+  <section class="section">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <p>
+      You can scroll and zoom inside the embedded CV viewer.  
+      <!-- Update the src to match your PDF path and name -->
+    </p>
+    <div class="pdf-viewer">
+      <embed src="pdfs/ash-cv.pdf" type="application/pdf">
+      <!-- If embed causes issues on some browsers, you can switch to:
+      <iframe src="pdfs/ash-cv.pdf"></iframe>
+      -->
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

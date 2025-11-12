@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ash Portfolio | Event Three</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html" class="active">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <section class="section">
+    <h2 class="section-title">Event Three – Title of the Event</h2>
+    <div class="event-header">
+      <p>
+        Short description of Event Three and its highlights.
+      </p>
+      <ul class="event-meta">
+        <li>Date: 01 March 2025</li>
+        <li>Location: Sample Venue Name</li>
+        <li>Role: Lead Organizer / Support</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3 class="section-title">Event Images</h3>
+    <div class="gallery">
+      <img src="images/event3-img1.jpg" alt="Event 3 image 1">
+      <img src="images/event3-img2.jpg" alt="Event 3 image 2">
+      <img src="images/event3-img3.jpg" alt="Event 3 image 3">
+      <img src="images/event3-img4.jpg" alt="Event 3 image 4">
+    </div>
+  </section>
+
+  <section class="section event-video">
+    <h3 class="section-title">Event Video</h3>
+    <video controls>
+      <source src="videos/event3-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="section">
+    <h3 class="section-title">What Ash Did</h3>
+    <p>
+      Explain Ash's specific contributions and responsibilities during Event Three.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3 class="section-title">Event Link QR Code</h3>
+    <div class="qr-box">
+      <img src="images/event3-qr.png" alt="QR code linking to Event Three webpage">
+      <div class="qr-info">
+        <p>
+          Replace <code>images/event3-qr.png</code> with the QR code image that
+          points to the event's main link.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ash Portfolio | Promotional Material</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html" class="active">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <section class="section">
+    <h2 class="section-title">Promotional Material</h2>
+    <p>
+      This page showcases sample promotional designs created on Canva or other tools.
+      Replace the placeholder images with your own posters or social media graphics.
+    </p>
+  </section>
+
+  <section class="section">
+    <h3 class="section-title">Canva Designs</h3>
+    <div class="promo-grid">
+      <!-- Replace these with your own images -->
+      <img src="images/promo1.jpg" alt="Promotional design 1">
+      <img src="images/promo2.jpg" alt="Promotional design 2">
+      <img src="images/promo3.jpg" alt="Promotional design 3">
+    </div>
+  </section>
+
+  <section class="section">
+    <h3 class="section-title">QR Code to Home Page</h3>
+    <div class="qr-box">
+      <!-- Generate a QR code that links to your GitHub Pages home URL, then replace promo-home-qr.png -->
+      <img src="images/promo-home-qr.png" alt="QR code linking to Ash Portfolio home page">
+      <div class="qr-info">
+        <p>
+          This QR code should link to the home page of this portfolio
+          (for example, your GitHub Pages URL). Replace
+          <code>images/promo-home-qr.png</code> with your generated QR image.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

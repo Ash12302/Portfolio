@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ash Portfolio | Event One</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html" class="active">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Event info -->
+  <section class="section">
+    <h2 class="section-title">Event One – Title of the Event</h2>
+    <div class="event-header">
+      <p>
+        <!-- Replace with real event information -->
+        Brief description of Event One. Include date, venue, type of event,
+        and any key objectives.
+      </p>
+      <ul class="event-meta">
+        <li>Date: 01 January 2025</li>
+        <li>Location: Sample Venue Name</li>
+        <li>Role: Event Coordinator / Organizer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Images -->
+  <section class="section">
+    <h3 class="section-title">Event Images</h3>
+    <div class="gallery">
+      <!-- Update filenames to your actual images -->
+      <img src="images/event1-img1.jpg" alt="Event 1 image 1">
+      <img src="images/event1-img2.jpg" alt="Event 1 image 2">
+      <img src="images/event1-img3.jpg" alt="Event 1 image 3">
+      <img src="images/event1-img4.jpg" alt="Event 1 image 4">
+    </div>
+  </section>
+
+  <!-- Video (delete this whole section if you do not have a video) -->
+  <section class="section event-video">
+    <h3 class="section-title">Event Video</h3>
+    <!-- Replace event1-video.mp4 with your file or a YouTube embed if you prefer -->
+    <video controls>
+      <source src="videos/event1-video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- What Ash did -->
+  <section class="section">
+    <h3 class="section-title">What Ash Did</h3>
+    <p>
+      <!-- Replace with description of Ash's responsibilities -->
+      Ash was responsible for pre-event planning, vendor coordination,
+      on-site supervision, and post-event feedback collection. Add more
+      detail here about specific tasks and achievements.
+    </p>
+  </section>
+
+  <!-- QR code -->
+  <section class="section">
+    <h3 class="section-title">Event Link QR Code</h3>
+    <div class="qr-box">
+      <!-- Replace event1-qr.png with the QR image you generate for the event link -->
+      <img src="images/event1-qr.png" alt="QR code linking to Event One webpage">
+      <div class="qr-info">
+        <p>
+          This QR code links to the official event page or ticketing link.
+          To update, generate a new QR image and replace
+          <code>images/event1-qr.png</code> with your file.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
