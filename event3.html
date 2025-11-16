@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ash Portfolio | Event Three — Dhaka Comic Con</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Page-specific tweak to center the QR image without affecting other pages */
+    .qr-box.centered { justify-content: center; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a class="active" href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Event info -->
+  <section class="section">
+    <h2 class="section-title">Dhaka Comic Con</h2>
+    <div class="event-header">
+      <p>
+        Pop-culture convention in Dhaka celebrating comics, anime, games, cosplay, and local creators.
+        Programming typically includes artist booths, vendor stalls, cosplay showcases, gaming corners,
+        photo ops, and stage segments for panels and meet-ups.
+      </p>
+      <ul class="event-meta">
+        <li>Date: <strong>12–13 January 2024</strong></li>
+        <li>Location: <strong>Bangabandhu International Conference Center (BICC), Dhaka</strong></li>
+        <li>Official Page:
+          <a href="https://www.facebook.com/DhakaComicon/" target="_blank" rel="noopener">facebook.com/DhakaComicon</a>
+        </li>
+        <li>Role: <strong>Stall Art &amp; Cards (Canva) — minor support</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Images -->
+  <section class="section">
+    <h3 class="section-title">Event Images</h3>
+    <div class="gallery">
+      <!-- Replace filenames with your photos -->
+      <img src="images/dcc-img1.jpg" alt="Dhaka Comic Con — hall and stalls" />
+      <img src="images/dcc-img2.jpg" alt="Dhaka Comic Con — cosplay showcase" />
+      <img src="images/dcc-img3.jpg" alt="Dhaka Comic Con — artist alley" />
+      <img src="images/dcc-img4.jpg" alt="Dhaka Comic Con — crowd and stage" />
+    </div>
+  </section>
+
+  <!-- Video (remove this block if not available) -->
+  <section class="section event-video">
+    <h3 class="section-title">Highlights Video</h3>
+    <!-- Put your MP4 at videos/dcc-highlights.mp4 or remove this section -->
+    <video controls preload="metadata" poster="images/dcc-poster.jpg">
+      <source src="videos/dcc-highlights.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- What Ash did -->
+  <section class="section">
+    <h3 class="section-title">What Ash Did</h3>
+    <p>
+      Ash provided light design support using Canva—creating <strong>stall artwork</strong> and
+      <strong>branded cards/handouts</strong> used at the booth. Scope was limited but ensured clean,
+      readable layouts, consistent colors, and print-ready files sized to vendor specs.
+    </p>
+  </section>
+
+  <!-- Event summary -->
+  <section class="section">
+    <h3 class="section-title">Event Summary</h3>
+    <p>
+      The convention gathered artists, vendors, and fans for cosplay, signings, merchandise, and community activities.
+      Traffic peaks aligned with stage shows and cosplay hours; booth materials focused on quick recognition and
+      clear calls to action for social follow-ups.
+    </p>
+  </section>
+
+  <!-- QR code (centered, no side text) -->
+  <section class="section">
+    <h3 class="section-title">Event Link QR Code</h3>
+    <div class="qr-box centered">
+      <img src="images/dcc-qr.png" alt="QR linking to Dhaka Comic Con page" />
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

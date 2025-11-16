@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ash Portfolio | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Bio + Photo -->
+  <section class="section">
+    <h2 class="section-title">About Ash</h2>
+    <div class="flex-row">
+      <div class="bio-text">
+        <p>
+          Early-career events and community support professional with hands-on experience across
+          pop-culture conventions and grassroots esports. Strengths include Canva-based visual
+          production, light stall/display design, basic media asset management, tournament admin/game
+          hosting, and on-ground coordination.
+        </p>
+
+        <h3 class="section-title" style="font-size:1.05rem;margin-top:12px;">Core Skills</h3>
+        <ul>
+          <li>Canva design: stall art, cards, posters, social tiles; clean hierarchy and print-ready exports.</li>
+          <li>Event support: queue flow, runner coordination, vendor/stall liaison, signage/layout tweaks.</li>
+          <li>Media management: collecting/labeling photos and clips; handoff for posts.</li>
+          <li>Esports ops: lobby hosting (Captains Mode), result screenshots, bracket updates.</li>
+          <li>Comms/tools: Discord admin flow, Google Forms/Sheets, basic video handling.</li>
+        </ul>
+
+        <h3 class="section-title" style="font-size:1.05rem;margin-top:12px;">Recent Event Contributions</h3>
+        <ul>
+          <li><strong>MazeCity Comic Con Bangladesh (2024):</strong> minor display design and on-site support; basic media management.</li>
+          <li><strong>Summersoul Season 2 — Dota 2 (Sep 2025):</strong> tournament management, game hosting, rules/verification, bracket pacing; Canva posts for comms.</li>
+          <li><strong>Dhaka Comic Con:</strong> Canva stall artwork and branded cards; limited booth readiness support.</li>
+        </ul>
+
+        <h3 class="section-title" style="font-size:1.05rem;margin-top:12px;">Education</h3>
+        <ul>
+          <li><strong>INTI International University &amp; Colleges (Malaysia)</strong> — Mar 2023–Present<br/>
+              B.A. (Hons) Mass Communication; Major: Public Relations, Minor: Marketing</li>
+          <li><strong>Manarat International</strong> — Completed 2017</li>
+        </ul>
+
+        <h3 class="section-title" style="font-size:1.05rem;margin-top:12px;">Freelance &amp; Promotional Work</h3>
+        <ul>
+          <li>Canva presentations and social media artwork for small teams and student/community events.</li>
+          <li>Ad-hoc design for foreign clients: posters, one-pagers, simple decks; sizing/adaptations and export packaging.</li>
+        </ul>
+      </div>
+
+      <div class="bio-photo">
+        <!-- Replace with your image -->
+        <img src="images/ash.png" alt="Portrait of Ash">
+      </div>
+    </div>
+  </section>
+
+  <!-- CV PDF Viewer -->
+  <section class="section">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <p>Scroll and zoom inside the embedded CV viewer.</p>
+    <div class="pdf-viewer">
+      <embed src="pdfs/ash-cv.pdf" type="application/pdf">
+      <!-- If needed, switch to:
+      <iframe src="pdfs/ash-cv.pdf"></iframe>
+      -->
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ash Portfolio | Event Two — Summersoul S2 • Dota 2 Tournament (2025)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Page-specific tweak to center the QR image without affecting other pages */
+    .qr-box.centered { justify-content: center; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a class="active" href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Event info -->
+  <section class="section">
+    <h2 class="section-title">Summersoul Season 2 — Dota 2 Tournament</h2>
+    <div class="event-header">
+      <p>
+        Online competitive Dota&nbsp;2 tournament for Bangladesh-based stacks and campus teams.
+        The goal was to deliver a fair, time-bound schedule with clear verification and Discord-based communication.
+      </p>
+      <ul class="event-meta">
+        <li>Prize Pool: <strong>20,000&nbsp;BDT</strong></li>
+        <li>Slots: <strong>16&nbsp;Teams</strong></li>
+        <li>Mode: <strong>Captains Mode</strong></li>
+        <li>Match Timings: <strong>10:00&nbsp;PM–12:00&nbsp;AM (Bangladesh Time)</strong></li>
+        <li>Registration Period: <strong>19–26&nbsp;September&nbsp;2025</strong></li>
+        <li>Location: <em>Online — Discord coordination</em></li>
+        <li>Role: <strong>Tournament Management, Game Hosting, Event Planning, Post Design Support</strong></li>
+      </ul>
+      <p>
+        Registration:
+        <a href="https://forms.gle/RmAjFAGY4Mrc1Rx78" target="_blank" rel="noopener">Google Form</a>
+        &nbsp;|&nbsp;
+        Discord:
+        <a href="https://discord.gg/r6aRcW4D97" target="_blank" rel="noopener">Join Server</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Rules & Requirements -->
+  <section class="section">
+    <h3 class="section-title">Team Requirements &amp; Rules</h3>
+    <ul class="event-meta">
+      <li>Team of <strong>5 players</strong> (optional <strong>1</strong> substitute).</li>
+      <li><strong>MMR Cap:</strong> total team MMR ≤ <strong>22,500</strong>. If a substitute is added, only the top five MMRs count toward the cap.</li>
+      <li><strong>Immortal players</strong> must have calibrated accounts (uncalibrated Immortal accounts not allowed).</li>
+      <li>Other ranks: calibration strongly advised before registering.</li>
+      <li><strong>Verification:</strong> all players are contacted after registration for account checks.</li>
+      <li><strong>No smurfing:</strong> secondary accounts lead to disqualification.</li>
+      <li><strong>Registration Fee:</strong> 500&nbsp;BDT per team (registration is complete only after payment).</li>
+      <li>All registered teams must join the official Discord for schedules and coordination.</li>
+    </ul>
+  </section>
+
+  <!-- Format -->
+  <section class="section">
+    <h3 class="section-title">Tournament Format</h3>
+    <p>
+      Group Stage leading into an Elimination Bracket. All matches are played in <strong>Captains Mode</strong>.
+      Admins scheduled fixtures within the nightly 10:00&nbsp;PM–12:00&nbsp;AM window to minimize clashes with other tournaments.
+    </p>
+  </section>
+
+  <!-- Images -->
+  <section class="section">
+    <h3 class="section-title">Event Images</h3>
+    <div class="gallery">
+      <!-- Replace filenames with your actual assets -->
+      <img src="images/event2-dota-1.jpg" alt="Dota 2 tournament key visual" />
+      <img src="images/event2-dota-2.jpg" alt="Bracket and fixture graphic" />
+      <img src="images/event2-dota-3.jpg" alt="In-game action highlight" />
+      <img src="images/event2-dota-4.jpg" alt="Community Discord announcement" />
+    </div>
+  </section>
+
+  <!-- Video (remove this whole section if no video) -->
+  <section class="section event-video">
+    <h3 class="section-title">Highlights Video</h3>
+    <!-- Put your MP4 at videos/event2-dota-highlights.mp4, or change the filename below -->
+    <video controls preload="metadata" poster="images/event2-dota-poster.jpg">
+      <source src="videos/event2-dota-highlights.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- What Ash did -->
+  <section class="section">
+    <h3 class="section-title">What Ash Did</h3>
+    <p>
+      Ash supported <strong>management</strong> (team coordination and timing),
+      <strong>game hosting</strong> (lobbies, sides, screenshots, result submission),
+      and <strong>event planning</strong> (ruleset consolidation, verification steps, bracket pacing).
+      Ash also contributed <strong>post creation</strong> for registration, verification, and fixture announcements.
+    </p>
+  </section>
+
+  <!-- QR code (centered, no side text) -->
+  <section class="section">
+    <h3 class="section-title">Registration QR Code</h3>
+    <div class="qr-box centered">
+      <!-- Replace with a QR linking to the registration form above -->
+      <img src="images/event2-qr.png" alt="QR linking to the registration form" />
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

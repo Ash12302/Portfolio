@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ash Portfolio | Promotional Work</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Page-specific button + QR tweaks */
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 6px;
+      border: 2px solid #ff4b4b;
+      background: #ff4b4b;
+      color: #fff;
+      font-weight: 600;
+      text-align: center;
+      transition: transform 0.05s ease-in-out, opacity 0.1s ease-in-out;
+    }
+    .btn:hover { opacity: 0.92; text-decoration: none; }
+    .btn:active { transform: translateY(1px); }
+    .btn.alt {
+      background: transparent;
+      color: #ff4b4b;
+    }
+    /* Center QR image without side text */
+    .qr-box.centered { justify-content: center; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a class="active" href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- Links (buttons) -->
+  <section class="section">
+    <h2 class="section-title">Links</h2>
+    <div class="btn-row">
+      <a class="btn" href="https://www.facebook.com/ashrafuls.online.profile" target="_blank" rel="noopener">Facebook Page</a>
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfjxaz_-1OmWc2ysIgWjnpxWEVDWhAytX5KegAZqgOLD4mBbQ/viewform?usp=dialog" target="_blank" rel="noopener">Google Form</a>
+      <a class="btn" href="https://ash12302.github.io/Portfolio/" target="_blank" rel="noopener">GitHub Site</a>
+      <a class="btn alt" href="https://github.com/Ash12302" target="_blank" rel="noopener">GitHub Profile</a>
+    </div>
+  </section>
+
+  <!-- QR code to Home Page (centered, no side text) -->
+  <section class="section">
+    <h3 class="section-title">QR Code to Home Page</h3>
+    <div class="qr-box centered">
+      <!-- Replace with a QR that points to your Home (GitHub Pages) URL -->
+      <img src="images/promo-home-qr.png" alt="QR code linking to the home page">
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
