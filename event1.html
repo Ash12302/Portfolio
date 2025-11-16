@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ash Portfolio | Event One — MazeCity Comic Con Bangladesh 2024</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    /* Page-specific tweak to center the QR image without affecting other pages */
+    .qr-box.centered { justify-content: center; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <h1>Ash Portfolio</h1>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a class="active" href="event1.html">Event 1</a></li>
+      <li><a href="event2.html">Event 2</a></li>
+      <li><a href="event3.html">Event 3</a></li>
+      <li><a href="promo.html">Promotional Work</a></li>
+    </ul>
+  </div>
+</header>
+
+<main class="main">
+  <!-- Event info -->
+  <section class="section">
+    <h2 class="section-title">MazeCity Comic Con Bangladesh 2024</h2>
+    <div class="event-header">
+      <p>
+        A public pop-culture convention celebrating anime, manga, comics, gaming, cosplay, and creator communities in Bangladesh.
+        Programming typically features a cosplay runway/contest, artist alley and merch stalls, gaming corners, community panels/meet-ups,
+        dedicated photo zones, and live stage segments for families and young fans.
+      </p>
+      <ul class="event-meta">
+        <li>Date: <strong>20–21 December 2024</strong></li>
+        <li>Location: <strong>International Convention City Bashundhara (ICCB), Dhaka</strong></li>
+        <li>Role: <strong>Design &amp; Operations Support (minor)</strong></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Images -->
+  <section class="section">
+    <h3 class="section-title">Event Images</h3>
+    <div class="gallery">
+      <!-- Replace filenames with your photos -->
+      <img src="images/mazecity2024-img1.jpg" alt="MazeCity Comic Con 2024 — crowd and stalls" />
+      <img src="images/mazecity2024-img2.jpg" alt="MazeCity Comic Con 2024 — cosplay on stage" />
+      <img src="images/mazecity2024-img3.jpg" alt="MazeCity Comic Con 2024 — artist alley" />
+      <img src="images/mazecity2024-img4.jpg" alt="MazeCity Comic Con 2024 — gaming corner" />
+    </div>
+  </section>
+
+  <!-- Video (delete this whole section if you have no video) -->
+  <section class="section event-video">
+    <h3 class="section-title">Event Video</h3>
+    <!-- Put your MP4 at videos/mazecity2024.mp4 -->
+    <video controls preload="metadata" poster="images/mazecity2024-poster.jpg">
+      <source src="videos/mazecity2024.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- What Ash did -->
+  <section class="section">
+    <h3 class="section-title">What Ash Did</h3>
+    <p>
+      Ash supported the team with <strong>display design</strong> (signage and layout tweaks for stalls and stage backdrops)
+      and light <strong>event operations</strong> (runner coordination, queue flow, attendee guidance). Ash also assisted with
+      <strong>media management</strong> on a minor basis—collecting clips/photos from volunteers, labeling assets, and forwarding
+      selects for same-day social posts.
+    </p>
+  </section>
+
+  <!-- Event summary -->
+  <section class="section">
+    <h3 class="section-title">Event Summary</h3>
+    <p>
+      The convention brought together local creators, vendors, and fan communities for cosplay showcases, artist merchandise,
+      gaming sessions, and interactive activities. Highlights included the main-stage cosplay segment, community meet-ups, and
+      a busy artist alley featuring prints, badges, and handcrafted items. The focus was inclusive participation and creator
+      visibility, with ample opportunities for photos and short-form content capture.
+    </p>
+  </section>
+
+  <!-- QR code (centered, no side text) -->
+  <section class="section">
+    <h3 class="section-title">Event Link QR Code</h3>
+    <div class="qr-box centered">
+      <img src="images/mazecity2024-qr.png" alt="QR code linking to the MazeCity event page" />
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Ash Portfolio
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
